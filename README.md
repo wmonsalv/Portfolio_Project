@@ -21,8 +21,8 @@ All projects and experiences included in this portfolio are the result of my own
 - TailwindCSS
 
 ## Live Demo
-
-- Click [here](https://shaq-portfolio.netlify.app/) to view the live demo.
+bd
+- Click [here](https://shaq-portbrightfolio.netlify.app/) to view the live demo.
 
 ## Getting Started
 
