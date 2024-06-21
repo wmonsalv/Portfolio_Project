@@ -1,4 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
+// import ColBox from './components/ColBox';
 import {
   About,
   Contact,
@@ -7,6 +8,7 @@ import {
   Navbar,
   Tech,
   Projects,
+//  ColBox
 } from './components';
 
 const App = () => {
@@ -14,12 +16,14 @@ const App = () => {
     <BrowserRouter>
       <div className="relative z-0">
         <div>
+          {/* <Map/> */}
           <Navbar />
           <Hero />
         </div>
 
         <div className="bg-about bg-cover bg-center bg-no-repeat">
           <About />
+          {/* <ColBox/> */}
         </div>
 
         <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">

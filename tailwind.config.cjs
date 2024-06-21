@@ -1,11 +1,22 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+const withMT = require("@material-tailwind/react/utils/withMT");
+module.exports = withMT({
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "path-to-your-node_modules/@material-tailwind/react/components/**/*.{js,ts,jsx,tsx}",
+    "path-to-your-node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
+  ],
   mode: 'jit',
   theme: {
     extend: {
       colors: {
         primary: '#050816',
+        customOrange: '#e96228',
+        customSky: '#0369a1',
+        cyanTemp: '#0891b2',
+        customSlate: '#334155',
+        customFuchsia: '#c026d3',
         secondary: '#aaa6c3',
         tertiary: '#151030',
         'black-100': '#100d25',
@@ -65,4 +76,4 @@ export default {
     },
   },
   plugins: [],
-};
+});
