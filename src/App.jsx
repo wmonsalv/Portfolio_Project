@@ -24,13 +24,13 @@ const App = () => {
 
         <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
           <Tech />
-        </div>
+        {/* </div>  Removed this component as I don't really have projects to share at the moment 
 
         <Projects />
 
         <div
           className="bg-experience bg-cover bg-center bg-no-repeat 
-            rounded-tl-[150px] rounded-br-[150px]">
+            rounded-tl-[150px] rounded-br-[150px]"> */}
           <div
             className="bg-experienceLight bg-cover bg-center 
             bg-no-repeat rounded-tl-[150px] rounded-br-[130px]">
