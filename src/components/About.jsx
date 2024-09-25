@@ -37,12 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+         I’m a consultant with a strong background in troubleshooting and optimizing processes in the supply chain industry. While my career has focused on working with clients to solve functional and technical challenges, I’m now leveraging that experience to dive deeper into software engineering and development. I’m committed to building software that solves real-world problems and brings efficiency to everyday operations. I’m eager to grow in this new direction and excited to connect with others in the field!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
