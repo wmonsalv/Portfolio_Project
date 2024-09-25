@@ -90,8 +90,11 @@ const Experience = () => {
                   className="w-[45%] h-[45%] object-contain"
                 />
               </div>
-            }>
-            <button
+            }
+          >
+            <a
+              href="src/assets/icons/William_Monsalve_Resume_2024.pdf" // replace with the actual path to your resume
+              download
               className="live-demo flex justify-between 
               sm:text-[18px] text-[14px] text-timberWolf 
               font-bold font-beckman items-center py-5 pl-3 pr-3 
@@ -100,12 +103,6 @@ const Experience = () => {
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
-              onClick={() =>
-                window.open(
-                  'resume link', //paste the link to your resume here
-                  '_blank'
-                )
-              }
               onMouseOver={() => {
                 document
                   .querySelector('.download-btn')
@@ -115,7 +112,8 @@ const Experience = () => {
                 document
                   .querySelector('.download-btn')
                   .setAttribute('src', download);
-              }}>
+              }}
+            >
               MY RESUME
               <img
                 src={download}
@@ -123,7 +121,7 @@ const Experience = () => {
                 className="download-btn sm:w-[26px] sm:h-[26px] 
                 w-[23px] h-[23px] object-contain"
               />
-            </button>
+            </a>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
