@@ -22,14 +22,13 @@ const Hero = () => {
 
           <div>
             <h1
-              className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
+              className={`${styles.heroHeadText} text-eerieBlack `}>
               Hi, I'm{' '}
               <span
-                className="sm:text-battleGray sm:text-[90px] 
-                text-eerieBlack text-[50px] 
-                font-openSans uppercase">
-                William
-              </span>
+            className="sm:text-battleGray sm:text-[90px] 
+            text-eerieBlack text-[50px] font-bungee uppercase">
+            William
+          </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
              A software engineer passionate about learning and building great things. Let's connect!

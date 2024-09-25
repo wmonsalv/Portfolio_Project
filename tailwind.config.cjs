@@ -28,14 +28,7 @@ export default {
         eerieBlack: '#1f1f1f',
         onyx: '#5b5b5b',
       },
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Open Sans', 'sans-serif'], // This makes Open Sans the default sans-serif font
-            openSans: ['Open Sans', 'sans-serif'], // Custom Open Sans utility
-          },
-        },
-      },
+    
       boxShadow: {
         card: '0px 35px 120px -15px #1f1f1f',
         cardLight: '0px 19px 38px #eaeaec, 0px 15px 12px #eaeaec',
@@ -69,6 +62,9 @@ export default {
         overcameBold: ['Overcame Bold'],
         overcameOutline: ['Overcame Outline'],
         poppins: ['Poppins', 'sans-serif'],
+        bungee: ['Bungee Tint', 'cursive'], // Add Bungee Tint font
+        sans: ['Open Sans', 'sans-serif'], // This makes Open Sans the default sans-serif font
+        openSans: ['Open Sans', 'sans-serif'], // Custom Open Sans utility
       },
     },
   },
