@@ -23,7 +23,7 @@ const ExperienceCard = ({ experience }) => (
     }}
     date={
       <div>
-        <h3 className="text-dim text-[18px] font-bold font-beckman">
+        <h3 className="text-white text-[18px] font-bold font-beckman ">
           {experience.date}
         </h3>
       </div>
@@ -55,7 +55,7 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} sm:pl-16 pl-[2rem]`}>
+        <p className={`${styles.sectionSubText} sm:pl-16 pl-[2rem] text-white`}>
           What I've done so far
         </p>
         <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
