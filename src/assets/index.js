@@ -41,6 +41,7 @@ import rubyrails from './tech/rubyrails.png';
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
+import MAP from './company/MAP.png';
 import microverse from './company/microverse.png';
 
 import komikult from './projects/komikult.png';
@@ -94,6 +95,7 @@ export {
   space,
   coverhunt,
   dcc,
+  MAP,
   kelhel,
   microverse,
 };

@@ -25,6 +25,7 @@ import {
   space,
   coverhunt,
   dcc,
+  MAP,
   kelhel,
   microverse,
 } from '../assets';
@@ -92,8 +93,8 @@ const experiences = [
   {
     title: 'Support Consultant',
     company_name: 'Manhattan Associates',
-    icon: dcc,
-    iconBg: '#333333',
+    icon: MAP,
+    iconBg: '#000000',
     date: 'June 2023 - Present',
   },
 ];

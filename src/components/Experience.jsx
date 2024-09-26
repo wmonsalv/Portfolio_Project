@@ -81,7 +81,7 @@ const Experience = () => {
             contentArrowStyle={{
               borderRight: '7px solid  #232631',
             }}
-            iconStyle={{ background: '#333333' }}
+            iconStyle={{ background: '#000000' }}
             icon={
               <div className="flex justify-center items-center w-full h-full">
                 <img
