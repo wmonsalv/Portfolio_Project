@@ -1,20 +1,17 @@
 {
-  "name": "shaquille",
+  "name": "Portfolio_Project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "build": "vite build",
     "preview": "vite preview",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"  // assuming Vite's output directory is 'dist'
   },
-  "homepage": "https://wmonsalv/Portfolio_Project",
+  "homepage": "https://github.com/wmonsalv",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.66.1",
